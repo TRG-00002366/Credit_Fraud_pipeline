@@ -77,19 +77,7 @@ creditcard_project/
 
 Generates transaction events in JSON format:
 
-```json
-{
-  "transaction_id": "TXN-10001",
-  "card_id": "CARD-9876",
-  "merchant": "Amazon",
-  "category": "Shopping",
-  "amount": 250.75,
-  "transaction_type": "ONLINE",
-  "location": "New York",
-  "transaction_time": "2026-02-25T10:32:00Z",
-  "is_international": false
-}
-```
+
 
 ---
 
