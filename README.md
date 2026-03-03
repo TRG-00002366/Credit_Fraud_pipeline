@@ -105,22 +105,6 @@ A transaction is marked as fraud if:
 - Transaction between 12 AM – 4 AM
 - Suspicious merchant category
 
-Adds a new column:
-
-```
-is_fraud
-```
-
-Writes output to:
-
-```
-data/raw/
-```
-
-Partitioned by:
-```
-date
-```
 
 ---
 
@@ -156,10 +140,6 @@ Uses:
 ### 4. Fraud Category Breakdown
 - Pivot by category
 
-Output saved to:
-```
-data/transformed/df_output/
-```
 
 ---
 
