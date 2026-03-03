@@ -52,6 +52,7 @@ creditcard_project/
 │   └── transformed/
 │
 ├── kafka/
+│   └── generator.py
 │   └── producer.py
 │
 ├── spark/
